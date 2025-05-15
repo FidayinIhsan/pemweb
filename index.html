@@ -3,83 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starry Real Estate</title>
+    <title>Lancaster Real Estate - Beranda</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
+    
     <nav>
-        <div class="logo">StarrySky</div>
+        <div class="logo">Lancaster Property</div>
         <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#property-list">Daftar Properti</a></li>
-            <li><a href="#contact">Kontak</a></li>
+            <li><a href="index.html" class="active">Beranda</a></li>
+            <li><a href="listing.html">Properti</a></li>
+            <li><a href="#kontak">Kontak</a></li>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
     <header class="hero">
-        <h1>Apa Yang Anda Cari?</h1>
-        <p>Rumah, Apartemen, atau Tanah - Kami Ada!</p>
-        <a href="#property-list" class="btn">Cari Sekarang</a>
+        <h1>Temukan Properti Impian Anda</h1>
+        <p>Solusi Terbaik untuk Kebutuhan Hunian dan Investasi</p>
+        <a href="listing.html" class="btn">Lihat Properti</a>
     </header>
 
-    <!-- Form Pencarian (Static) -->
-    <section class="search-form" id="search">
-        <h2>Cari Properti</h2>
-        <form>
-            <input type="text" placeholder="Lokasi (Contoh: Jakarta)">
-            <select>
-                <option value="">Semua Tipe</option>
-                <option value="rumah">Rumah</option>
-                <option value="apartemen">Apartemen</option>
-                <option value="tanah">Tanah</option>
-            </select>
-            <input type="number" placeholder="Harga Maks (Rp)">
-            <button type="submit" class="btn">Cari</button>
-        </form>
-    </section>
-
-    <!-- Daftar Properti -->
-    <section class="property-list" id="property-list">
-        <h2>Properti Tersedia</h2>
-        <div class="properties">
-            <!-- Properti 1 -->
-            <a href="detail.html" class="property-card">
-                <img src="image/jakarta.jpg" alt="Rumah Mewah">
-                <h3>Rumah Mewah di Jakarta</h3>
-                <p>Rp 2,5 Miliar</p>
-                <div class="btn">Lihat Detail</div>
-            </a>
-            
-            <!-- Properti 2 -->
-            <a href="detail.html" class="property-card">
-                <img src="image/bsd.jpg" alt="Apartemen BSD">
-                <h3>Apartemen di BSD City</h3>
-                <p>Rp 1,8 Miliar</p>
-                <div class="btn">Lihat Detail</div>
-            </a>
-            
-            <!-- Properti 3 -->
-            <a href="detail.html" class="property-card">
-                <img src="image/kavling.jpg" alt="Tanah Strategis">
-                <h3>Tanah Strategis di Bandung</h3>
-                <p>Rp 950 Juta</p>
-                <div class="btn">Lihat Detail</div>
-            </a>
+    <section class="highlights">
+        <div class="highlight-card">
+            <h3>Rumah</h3>
+            <p>Mulai dari Rp 500 Juta</p>
+        </div>
+        <div class="highlight-card">
+            <h3>Apartemen</h3>
+            <p>Mulai dari Rp 800 Juta</p>
+        </div>
+        <div class="highlight-card">
+            <h3>Tanah</h3>
+            <p>Mulai dari Rp 300 Juta</p>
         </div>
     </section>
 
-    <!-- Kontak -->
-    <section class="contact" id="contact">
-        <h2>Hubungi Kami</h2>
-        <p>Email: <a href="mailto:info@starryrealestate.com">info@starryrealestate.com</a></p>
-        <p>Telepon: <a href="tel:+628123456789">0812-3456-789</a></p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Starry Real Estate. All Rights Reserved.</p>
+    <footer id="kontak">
+        <p>📞 0812-3456-789 | 📧 info@lancasterrealestate.com</p>
+        <p>&copy; 2025 LancasterRealEstate</p>
     </footer>
 </body>
-</html>
