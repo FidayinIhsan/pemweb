@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properti Tersedia - Lancaster Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Lancaster Real Estate</div>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="listing.html" class="active">Properti</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section class="property-listing">
+        <h1>Daftar Properti Tersedia</h1>
+        
+        <div class="filters">
+            <form>
+                <input type="text" placeholder="Cari lokasi...">
+                <select>
+                    <option>Semua Tipe</option>
+                    <option>Rumah</option>
+                    <option>Apartemen</option>
+                    <option>Tanah</option>
+                </select>
+                <button type="submit" class="btn">Filter</button>
+            </form>
+        </div>
+
+        <div class="property-grid">
+            <a href="detail.html" class="property-card">
+                <img src="image/surakarta.jpg" alt="Rumah Mewah">
+                <h3>Rumah Mewah Surakarta</h3>
+                <p>Rp 1,5 Miliar</p>
+                <span class="btn">Detail</span>
+            </a>
+            
+            <a href="detail2.html" class="property-card">
+                <img src="image/tawangmangu.jpg" alt="Apartemen Tawangmangu">
+                <h3>Apartemen Tawangmangu</h3>
+                <p>Rp 1,2 Miliar</p>
+                <span class="btn">Detail</span>
+            </a>
+            
+            <a href="detail3.html" class="property-card">
+                <img src="image/kavling.jpg" alt="Tanah Boyolali">
+                <h3>Tanah Boyolali</h3>
+                <p>Rp 850 Juta</p>
+                <span class="btn">Detail</span>
+            </a>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <p>📞 0812-3456-789 | 📧 info@lancasterrealestate.com</p>
+        <p>&copy; 2025 LancasterRealEstate</p>
+    </footer>
+</body>
+</html>
