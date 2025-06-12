@@ -264,10 +264,6 @@ footer {
     margin-top: 2rem;
 }
 
-
-* {
-  box-sizing: border-box;
-}
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
